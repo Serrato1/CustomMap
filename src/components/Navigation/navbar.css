@@ -1,0 +1,32 @@
+.navbar-container{
+    position:fixed;
+    bottom:0;
+    width:100vw;
+    background: #222326;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 50px;
+}
+.navbar-container:nth-child(0){
+    background: black;
+
+}
+.button-container{
+    display:grid;
+    /* border: 1px solid white; */
+    justify-content:  center;
+    align-content: center; 
+    color:white;
+}
+.button *{
+    font-size:25px;
+    color:white;
+}
+.button:hover{
+    cursor:pointer;
+    opacity: .8;
+}
+
+#notch{
+    font-size:35px;
+}
